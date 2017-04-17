@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1812CE851EA503800063C5CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1812CE841EA503800063C5CB /* main.m */; };
+		1812CE881EA503800063C5CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1812CE871EA503800063C5CB /* AppDelegate.m */; };
+		1812CE8B1EA503800063C5CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1812CE8A1EA503800063C5CB /* ViewController.m */; };
+		1812CE8E1EA503800063C5CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1812CE8C1EA503800063C5CB /* Main.storyboard */; };
+		1812CE901EA503800063C5CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1812CE8F1EA503800063C5CB /* Assets.xcassets */; };
+		1812CE931EA503800063C5CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1812CE911EA503800063C5CB /* LaunchScreen.storyboard */; };
+		1812CE9E1EA503800063C5CB /* LFY__QQ_______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1812CE9D1EA503800063C5CB /* LFY__QQ_______Tests.m */; };
+		1812CEA91EA503800063C5CB /* LFY__QQ_______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1812CEA81EA503800063C5CB /* LFY__QQ_______UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1812CE9A1EA503800063C5CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1812CE781EA503800063C5CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1812CE7F1EA503800063C5CB;
+			remoteInfo = "LFY_仿QQ空间导航栏渐变";
+		};
+		1812CEA51EA503800063C5CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1812CE781EA503800063C5CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1812CE7F1EA503800063C5CB;
+			remoteInfo = "LFY_仿QQ空间导航栏渐变";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1812CE801EA503800063C5CB /* LFY_仿QQ空间导航栏渐变.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LFY_仿QQ空间导航栏渐变.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1812CE841EA503800063C5CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1812CE861EA503800063C5CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1812CE871EA503800063C5CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1812CE891EA503800063C5CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1812CE8A1EA503800063C5CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1812CE8D1EA503800063C5CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1812CE8F1EA503800063C5CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1812CE921EA503800063C5CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1812CE941EA503800063C5CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1812CE991EA503800063C5CB /* LFY_仿QQ空间导航栏渐变Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LFY_仿QQ空间导航栏渐变Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1812CE9D1EA503800063C5CB /* LFY__QQ_______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LFY__QQ_______Tests.m"; sourceTree = "<group>"; };
+		1812CE9F1EA503800063C5CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1812CEA41EA503800063C5CB /* LFY_仿QQ空间导航栏渐变UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LFY_仿QQ空间导航栏渐变UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1812CEA81EA503800063C5CB /* LFY__QQ_______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LFY__QQ_______UITests.m"; sourceTree = "<group>"; };
+		1812CEAA1EA503800063C5CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1812CE7D1EA503800063C5CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1812CE961EA503800063C5CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1812CEA11EA503800063C5CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1812CE771EA503800063C5CB = {
+			isa = PBXGroup;
+			children = (
+				1812CE821EA503800063C5CB /* LFY_仿QQ空间导航栏渐变 */,
+				1812CE9C1EA503800063C5CB /* LFY_仿QQ空间导航栏渐变Tests */,
+				1812CEA71EA503800063C5CB /* LFY_仿QQ空间导航栏渐变UITests */,
+				1812CE811EA503800063C5CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1812CE811EA503800063C5CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1812CE801EA503800063C5CB /* LFY_仿QQ空间导航栏渐变.app */,
+				1812CE991EA503800063C5CB /* LFY_仿QQ空间导航栏渐变Tests.xctest */,
+				1812CEA41EA503800063C5CB /* LFY_仿QQ空间导航栏渐变UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1812CE821EA503800063C5CB /* LFY_仿QQ空间导航栏渐变 */ = {
+			isa = PBXGroup;
+			children = (
+				1812CE861EA503800063C5CB /* AppDelegate.h */,
+				1812CE871EA503800063C5CB /* AppDelegate.m */,
+				1812CE891EA503800063C5CB /* ViewController.h */,
+				1812CE8A1EA503800063C5CB /* ViewController.m */,
+				1812CE8C1EA503800063C5CB /* Main.storyboard */,
+				1812CE8F1EA503800063C5CB /* Assets.xcassets */,
+				1812CE911EA503800063C5CB /* LaunchScreen.storyboard */,
+				1812CE941EA503800063C5CB /* Info.plist */,
+				1812CE831EA503800063C5CB /* Supporting Files */,
+			);
+			path = "LFY_仿QQ空间导航栏渐变";
+			sourceTree = "<group>";
+		};
+		1812CE831EA503800063C5CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1812CE841EA503800063C5CB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1812CE9C1EA503800063C5CB /* LFY_仿QQ空间导航栏渐变Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1812CE9D1EA503800063C5CB /* LFY__QQ_______Tests.m */,
+				1812CE9F1EA503800063C5CB /* Info.plist */,
+			);
+			path = "LFY_仿QQ空间导航栏渐变Tests";
+			sourceTree = "<group>";
+		};
+		1812CEA71EA503800063C5CB /* LFY_仿QQ空间导航栏渐变UITests */ = {
+			isa = PBXGroup;
+			children = (
+				1812CEA81EA503800063C5CB /* LFY__QQ_______UITests.m */,
+				1812CEAA1EA503800063C5CB /* Info.plist */,
+			);
+			path = "LFY_仿QQ空间导航栏渐变UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1812CE7F1EA503800063C5CB /* LFY_仿QQ空间导航栏渐变 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1812CEAD1EA503800063C5CB /* Build configuration list for PBXNativeTarget "LFY_仿QQ空间导航栏渐变" */;
+			buildPhases = (
+				1812CE7C1EA503800063C5CB /* Sources */,
+				1812CE7D1EA503800063C5CB /* Frameworks */,
+				1812CE7E1EA503800063C5CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LFY_仿QQ空间导航栏渐变";
+			productName = "LFY_仿QQ空间导航栏渐变";
+			productReference = 1812CE801EA503800063C5CB /* LFY_仿QQ空间导航栏渐变.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1812CE981EA503800063C5CB /* LFY_仿QQ空间导航栏渐变Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1812CEB01EA503800063C5CB /* Build configuration list for PBXNativeTarget "LFY_仿QQ空间导航栏渐变Tests" */;
+			buildPhases = (
+				1812CE951EA503800063C5CB /* Sources */,
+				1812CE961EA503800063C5CB /* Frameworks */,
+				1812CE971EA503800063C5CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1812CE9B1EA503800063C5CB /* PBXTargetDependency */,
+			);
+			name = "LFY_仿QQ空间导航栏渐变Tests";
+			productName = "LFY_仿QQ空间导航栏渐变Tests";
+			productReference = 1812CE991EA503800063C5CB /* LFY_仿QQ空间导航栏渐变Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1812CEA31EA503800063C5CB /* LFY_仿QQ空间导航栏渐变UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1812CEB31EA503800063C5CB /* Build configuration list for PBXNativeTarget "LFY_仿QQ空间导航栏渐变UITests" */;
+			buildPhases = (
+				1812CEA01EA503800063C5CB /* Sources */,
+				1812CEA11EA503800063C5CB /* Frameworks */,
+				1812CEA21EA503800063C5CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1812CEA61EA503800063C5CB /* PBXTargetDependency */,
+			);
+			name = "LFY_仿QQ空间导航栏渐变UITests";
+			productName = "LFY_仿QQ空间导航栏渐变UITests";
+			productReference = 1812CEA41EA503800063C5CB /* LFY_仿QQ空间导航栏渐变UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1812CE781EA503800063C5CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = com.cooper.dtag;
+				TargetAttributes = {
+					1812CE7F1EA503800063C5CB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					1812CE981EA503800063C5CB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1812CE7F1EA503800063C5CB;
+					};
+					1812CEA31EA503800063C5CB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1812CE7F1EA503800063C5CB;
+					};
+				};
+			};
+			buildConfigurationList = 1812CE7B1EA503800063C5CB /* Build configuration list for PBXProject "LFY_仿QQ空间导航栏渐变" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1812CE771EA503800063C5CB;
+			productRefGroup = 1812CE811EA503800063C5CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1812CE7F1EA503800063C5CB /* LFY_仿QQ空间导航栏渐变 */,
+				1812CE981EA503800063C5CB /* LFY_仿QQ空间导航栏渐变Tests */,
+				1812CEA31EA503800063C5CB /* LFY_仿QQ空间导航栏渐变UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1812CE7E1EA503800063C5CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1812CE931EA503800063C5CB /* LaunchScreen.storyboard in Resources */,
+				1812CE901EA503800063C5CB /* Assets.xcassets in Resources */,
+				1812CE8E1EA503800063C5CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1812CE971EA503800063C5CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1812CEA21EA503800063C5CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1812CE7C1EA503800063C5CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1812CE8B1EA503800063C5CB /* ViewController.m in Sources */,
+				1812CE881EA503800063C5CB /* AppDelegate.m in Sources */,
+				1812CE851EA503800063C5CB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1812CE951EA503800063C5CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1812CE9E1EA503800063C5CB /* LFY__QQ_______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1812CEA01EA503800063C5CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1812CEA91EA503800063C5CB /* LFY__QQ_______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1812CE9B1EA503800063C5CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1812CE7F1EA503800063C5CB /* LFY_仿QQ空间导航栏渐变 */;
+			targetProxy = 1812CE9A1EA503800063C5CB /* PBXContainerItemProxy */;
+		};
+		1812CEA61EA503800063C5CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1812CE7F1EA503800063C5CB /* LFY_仿QQ空间导航栏渐变 */;
+			targetProxy = 1812CEA51EA503800063C5CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1812CE8C1EA503800063C5CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1812CE8D1EA503800063C5CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1812CE911EA503800063C5CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1812CE921EA503800063C5CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1812CEAB1EA503800063C5CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1812CEAC1EA503800063C5CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1812CEAE1EA503800063C5CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "LFY_仿QQ空间导航栏渐变/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cooper.dtag.LFY--QQ-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1812CEAF1EA503800063C5CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "LFY_仿QQ空间导航栏渐变/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cooper.dtag.LFY--QQ-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1812CEB11EA503800063C5CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "LFY_仿QQ空间导航栏渐变Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cooper.dtag.LFY--QQ-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LFY_仿QQ空间导航栏渐变.app/LFY_仿QQ空间导航栏渐变";
+			};
+			name = Debug;
+		};
+		1812CEB21EA503800063C5CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "LFY_仿QQ空间导航栏渐变Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cooper.dtag.LFY--QQ-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LFY_仿QQ空间导航栏渐变.app/LFY_仿QQ空间导航栏渐变";
+			};
+			name = Release;
+		};
+		1812CEB41EA503800063C5CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "LFY_仿QQ空间导航栏渐变UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cooper.dtag.LFY--QQ-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "LFY_仿QQ空间导航栏渐变";
+			};
+			name = Debug;
+		};
+		1812CEB51EA503800063C5CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "LFY_仿QQ空间导航栏渐变UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cooper.dtag.LFY--QQ-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "LFY_仿QQ空间导航栏渐变";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1812CE7B1EA503800063C5CB /* Build configuration list for PBXProject "LFY_仿QQ空间导航栏渐变" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1812CEAB1EA503800063C5CB /* Debug */,
+				1812CEAC1EA503800063C5CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1812CEAD1EA503800063C5CB /* Build configuration list for PBXNativeTarget "LFY_仿QQ空间导航栏渐变" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1812CEAE1EA503800063C5CB /* Debug */,
+				1812CEAF1EA503800063C5CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1812CEB01EA503800063C5CB /* Build configuration list for PBXNativeTarget "LFY_仿QQ空间导航栏渐变Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1812CEB11EA503800063C5CB /* Debug */,
+				1812CEB21EA503800063C5CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1812CEB31EA503800063C5CB /* Build configuration list for PBXNativeTarget "LFY_仿QQ空间导航栏渐变UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1812CEB41EA503800063C5CB /* Debug */,
+				1812CEB51EA503800063C5CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1812CE781EA503800063C5CB /* Project object */;
+}
