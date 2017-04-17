@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RootViewController.h
 //  LFY_仿QQ空间导航栏渐变
 //
 //  Created by apple on 17/4/17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface RootViewController : UIViewController
 
 @end
-

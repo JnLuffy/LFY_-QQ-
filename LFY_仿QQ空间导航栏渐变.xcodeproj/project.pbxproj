@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		1812CE851EA503800063C5CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1812CE841EA503800063C5CB /* main.m */; };
 		1812CE881EA503800063C5CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1812CE871EA503800063C5CB /* AppDelegate.m */; };
-		1812CE8B1EA503800063C5CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1812CE8A1EA503800063C5CB /* ViewController.m */; };
-		1812CE8E1EA503800063C5CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1812CE8C1EA503800063C5CB /* Main.storyboard */; };
 		1812CE901EA503800063C5CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1812CE8F1EA503800063C5CB /* Assets.xcassets */; };
 		1812CE931EA503800063C5CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1812CE911EA503800063C5CB /* LaunchScreen.storyboard */; };
 		1812CE9E1EA503800063C5CB /* LFY__QQ_______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1812CE9D1EA503800063C5CB /* LFY__QQ_______Tests.m */; };
 		1812CEA91EA503800063C5CB /* LFY__QQ_______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1812CEA81EA503800063C5CB /* LFY__QQ_______UITests.m */; };
+		1812CEB81EA5053F0063C5CB /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1812CEB71EA5053F0063C5CB /* RootViewController.m */; };
+		1812CEBA1EA505F80063C5CB /* jinan_nav_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 1812CEB91EA505F80063C5CB /* jinan_nav_bg.png */; };
+		1812CEBD1EA507C60063C5CB /* PushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1812CEBC1EA507C60063C5CB /* PushViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +40,6 @@
 		1812CE841EA503800063C5CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1812CE861EA503800063C5CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1812CE871EA503800063C5CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1812CE891EA503800063C5CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1812CE8A1EA503800063C5CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1812CE8D1EA503800063C5CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1812CE8F1EA503800063C5CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1812CE921EA503800063C5CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1812CE941EA503800063C5CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +49,11 @@
 		1812CEA41EA503800063C5CB /* LFY_仿QQ空间导航栏渐变UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LFY_仿QQ空间导航栏渐变UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1812CEA81EA503800063C5CB /* LFY__QQ_______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LFY__QQ_______UITests.m"; sourceTree = "<group>"; };
 		1812CEAA1EA503800063C5CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1812CEB61EA5053F0063C5CB /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		1812CEB71EA5053F0063C5CB /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		1812CEB91EA505F80063C5CB /* jinan_nav_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jinan_nav_bg.png; sourceTree = "<group>"; };
+		1812CEBB1EA507C60063C5CB /* PushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushViewController.h; sourceTree = "<group>"; };
+		1812CEBC1EA507C60063C5CB /* PushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +104,13 @@
 		1812CE821EA503800063C5CB /* LFY_仿QQ空间导航栏渐变 */ = {
 			isa = PBXGroup;
 			children = (
+				1812CEB91EA505F80063C5CB /* jinan_nav_bg.png */,
 				1812CE861EA503800063C5CB /* AppDelegate.h */,
 				1812CE871EA503800063C5CB /* AppDelegate.m */,
-				1812CE891EA503800063C5CB /* ViewController.h */,
-				1812CE8A1EA503800063C5CB /* ViewController.m */,
-				1812CE8C1EA503800063C5CB /* Main.storyboard */,
+				1812CEB61EA5053F0063C5CB /* RootViewController.h */,
+				1812CEB71EA5053F0063C5CB /* RootViewController.m */,
+				1812CEBB1EA507C60063C5CB /* PushViewController.h */,
+				1812CEBC1EA507C60063C5CB /* PushViewController.m */,
 				1812CE8F1EA503800063C5CB /* Assets.xcassets */,
 				1812CE911EA503800063C5CB /* LaunchScreen.storyboard */,
 				1812CE941EA503800063C5CB /* Info.plist */,
@@ -247,8 +252,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1812CE931EA503800063C5CB /* LaunchScreen.storyboard in Resources */,
+				1812CEBA1EA505F80063C5CB /* jinan_nav_bg.png in Resources */,
 				1812CE901EA503800063C5CB /* Assets.xcassets in Resources */,
-				1812CE8E1EA503800063C5CB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +278,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1812CE8B1EA503800063C5CB /* ViewController.m in Sources */,
 				1812CE881EA503800063C5CB /* AppDelegate.m in Sources */,
 				1812CE851EA503800063C5CB /* main.m in Sources */,
+				1812CEBD1EA507C60063C5CB /* PushViewController.m in Sources */,
+				1812CEB81EA5053F0063C5CB /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,14 +317,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1812CE8C1EA503800063C5CB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1812CE8D1EA503800063C5CB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1812CE911EA503800063C5CB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

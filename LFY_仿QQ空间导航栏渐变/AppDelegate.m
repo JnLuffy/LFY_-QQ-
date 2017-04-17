@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "RootViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,9 +17,33 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    _window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen] bounds]];
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:[RootViewController new]];
+    _window.rootViewController = nav;
+    [self setNavigationBarBackgroudImage:nav];
+    [_window makeKeyAndVisible];
     return YES;
 }
+//设置导航栏的背景图
+- (void)setNavigationBarBackgroudImage:(UINavigationController *)nav{
+    [nav.navigationBar setTintColor:[UIColor whiteColor]];
+    UIImage *backgroundImage =   [UIImage imageNamed:@"jinan_nav_bg"];
+    CGRect rectStatus = [[UIApplication sharedApplication] statusBarFrame];
+    CGRect rectNavigation = nav.navigationBar.frame;
+    CGSize titleSize = CGSizeMake(rectNavigation.size.width, rectStatus.size.height + rectNavigation.size.height);
+    
+    UIGraphicsBeginImageContext(titleSize);
+    [backgroundImage drawInRect:CGRectMake(0, 0, titleSize.width, titleSize.height)];
+    UIImage* scaledImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    backgroundImage = scaledImage;//设置图片的大小与Navigation Bar相同
+    [nav.navigationBar setBackgroundImage:backgroundImage forBarMetrics:UIBarMetricsDefault];  //设置背景
+    
+}
+
+
+
+
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {
