@@ -212,6 +212,7 @@
 				TargetAttributes = {
 					1812CE7F1EA503800063C5CB = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9N6P88TN8F;
 						ProvisioningStyle = Automatic;
 					};
 					1812CE981EA503800063C5CB = {
@@ -420,6 +421,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9N6P88TN8F;
 				INFOPLIST_FILE = "LFY_仿QQ空间导航栏渐变/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cooper.dtag.LFY--QQ-------";
@@ -431,6 +433,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9N6P88TN8F;
 				INFOPLIST_FILE = "LFY_仿QQ空间导航栏渐变/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cooper.dtag.LFY--QQ-------";
@@ -503,6 +506,7 @@
 				1812CEAF1EA503800063C5CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1812CEB01EA503800063C5CB /* Build configuration list for PBXNativeTarget "LFY_仿QQ空间导航栏渐变Tests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +515,7 @@
 				1812CEB21EA503800063C5CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1812CEB31EA503800063C5CB /* Build configuration list for PBXNativeTarget "LFY_仿QQ空间导航栏渐变UITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +524,7 @@
 				1812CEB51EA503800063C5CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

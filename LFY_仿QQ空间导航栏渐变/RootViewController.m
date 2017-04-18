@@ -37,13 +37,14 @@
 
 -(void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
- 
+    self.tableView.delegate = self;
     _barImageView.alpha = 0 ;
 }
 
 
 -(void)viewWillDisappear:(BOOL)animated{
     [super viewWillDisappear:animated];
+    self.tableView.delegate = nil;//为了防止页面push时，导航栏的背景还发生改变
     _barImageView.alpha = 1 ;
 
 }
@@ -87,7 +88,7 @@
     
     CGFloat offsetY = scrollView.contentOffset.y;
     if(offsetY <= 85){
-        CGFloat alpha = MIN(1,(offsetY+64)/150 );
+        CGFloat alpha = MIN(1,(offsetY)/150 ); 
         _barImageView.alpha = alpha;
     }else{
         _barImageView.alpha = 1;
