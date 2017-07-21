@@ -18,6 +18,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     _window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen] bounds]];
+    _window.backgroundColor = [UIColor whiteColor];
     UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:[RootViewController new]];
     _window.rootViewController = nav;
     [self setNavigationBarBackgroudImage:nav];
